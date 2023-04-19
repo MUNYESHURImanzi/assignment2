@@ -1,0 +1,75 @@
+*{
+width:100%
+}
+.all{
+    width:100%
+
+}
+.all h1{
+    font-size: 24px;
+}
+.all h1,p{
+    margin: 20px;
+}
+.column{
+    width:33%;
+    display: flex;
+flex-wrap: wrap;
+float: left;
+   
+    
+    background-color: rgb(255, 255, 255);
+
+}
+.conteiner{
+   width: 80%;
+margin: 30px;
+   
+    box-shadow: 3px 3px 3px 3px rgb(185, 184, 184);
+}
+.conteiner img{
+
+ 
+
+}
+.conteiner h3{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+    opacity: 0.3;
+
+}
+
+.conteiner p,h3,h2,address{
+    margin-left: 20px;
+    width: 80%;
+
+
+}
+.conteiner p,address{
+    font-size: 13px;
+}
+.conteiner button{
+    color:rgb(255, 255, 255);
+    background-color: black;
+   width: 80%;
+    margin: 20px;
+    
+}
+.conteiner button:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(59, 54, 54);
+    width: 80%;
+    margin: 20px;
+    
+}
+@media screen and (max-width: 700px) {
+
+    .column{
+;
+
+
+        
+       
+       }
+}
